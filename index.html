@@ -2,7 +2,38 @@
 <html>
 <body>
 
+  <p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
+      
+      <audio id='mySound' src='audio/my_audio.mp3' />
+
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/397616520" width="640" height="360" frameborder="0" align="right"></iframe>
 
 </body>
 </html>
+
+        <script type="text/javascript">
+          function PlaySound(soundobj) {
+            var thissound = document.getElementById(soundobj);
+            thissound.play();
+          }
+
+          function StopSound(soundobj) {
+            var thissound = document.getElementById(soundobj);
+            thissound.pause();
+            thissound.currentTime = 0;
+          }
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
