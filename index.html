@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      padding: 0px;
+      background-color: #004e91;
+      color: #dbdbdb;
+    }
 
-    <iframe class="float-right" src="https://player.vimeo.com/video/397616520" width="640" height="360" frameborder="0" align="right"></iframe>
-    
-    <script>
-      function play(index){
+    /* Style the header */
+    .header {
+      padding: 40px;
+      text-align: center;
+      color: #dbdbdb;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Design Project</h1>
+    <p>- At the intersection of therapy and art.</p>
+  </div>
+
+  <iframe class="float-right" src="https://player.vimeo.com/video/397616520" width="640" height="360" frameborder="0" align="right"></iframe>
+
+  <script>
+    function play(index){
       var audio = document.getElementById("audio"+index);
       audio.play();
     }
-    </script>
+  </script>
 
-    <a nohref value="PLAY"  onmouseover="play(1)">Hello</a>
-    <a nohref value="PLAY"  onmouseover="play(2)">my</a>
-    <a nohref value="PLAY"  onmouseover="play(3)">name</a>
-    <a nohref value="PLAY"  onmouseover="play(4)">is</a>
-    <a nohref value="PLAY"  onmouseover="play(5)">Johannes.</a>
-    <audio id="audio1" preload="auto" src="audio/Hello.mp3"></audio>
-    <audio id="audio2" preload="auto" src="audio/my.mp3" ></audio>
-    <audio id="audio3" preload="auto" src="audio/name.mp3" ></audio>
-    <audio id="audio4" preload="auto" src="audio/is.mp3" ></audio>
-    <audio id="audio5" preload="auto" src="audio/johannes.mp3" ></audio>
-    
-    
-    
-  </body>
+  <a nohref value="PLAY"  onmouseover="play(1)">Hello</a>
+  <a nohref value="PLAY"  onmouseover="play(2)">my</a>
+  <a nohref value="PLAY"  onmouseover="play(3)">name</a>
+  <a nohref value="PLAY"  onmouseover="play(4)">is</a>
+  <a nohref value="PLAY"  onmouseover="play(5)">Johannes.</a>
+  <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
+  <audio id="audio1" preload="auto" src="audio/Hello.mp3"></audio>
+  <audio id="audio2" preload="auto" src="audio/my.mp3" ></audio>
+  <audio id="audio3" preload="auto" src="audio/name.mp3" ></audio>
+  <audio id="audio4" preload="auto" src="audio/is.mp3" ></audio>
+  <audio id="audio5" preload="auto" src="audio/johannes.mp3" ></audio>
+
+
+
+</body>
 </html>
-
-<script type="text/css">
-.float-right {
-    float: right;
-    width: 65%;
-    }
-</script>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
