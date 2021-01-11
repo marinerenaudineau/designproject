@@ -11,22 +11,17 @@
     }
     </script>
 
-    <a nohref value="PLAY"  onmouseover="play(1)">Your Text 1</a>
-    <a nohref value="PLAY"  onmouseover="play(2)">Your Text 2</a>
-    <a nohref value="PLAY"  onmouseover="play(3)">Your Text 3</a>
-    <audio id="audio1" src="audio/my_audio.mp3"></audio>
-    <audio id="audio2" src="audio/my_audio.mp3" ></audio>
-    <audio id="audio3" src="audio/my_audio.mp3" ></audio>
+    <a nohref value="PLAY"  onmouseover="play(1)">Hello</a>
+    <a nohref value="PLAY"  onmouseover="play(2)">my</a>
+    <a nohref value="PLAY"  onmouseover="play(3)">name</a>
+    <a nohref value="PLAY"  onmouseover="play(4)">is</a>
+    <a nohref value="PLAY"  onmouseover="play(5)">Johannes.</a>
+    <audio id="audio1" src="audio/Hello.mp3"></audio>
+    <audio id="audio2" src="audio/my.mp3" ></audio>
+    <audio id="audio3" src="audio/name.mp3" ></audio>
+    <audio id="audio4" src="audio/is.mp3" ></audio>
+    <audio id="audio5" src="audio/johannes.mp3" ></audio>
     
-    
-    <p onmouseover="PlaySound('mySound')" 
-       onmouseout="StopSound('mySound')" 
-       Hover Over Me To Play </p>
-    
-    <div class="clear"></div>
-    
-    
-    <audio id='mySound' src='audio/my_audio.mp3' />
     
     
   </body>
@@ -39,18 +34,7 @@
     }
 </script>
         
-<script type="text/javascript">
-  function PlaySound(soundobj) {
-  var thissound = document.getElementById(soundobj);
-  thissound.play();
-  }
 
-  function StopSound(soundobj) {
-  var thissound = document.getElementById(soundobj);
-  thissound.pause();
-  thissound.currentTime = 0;
-  }
-</script>
 
 
 
