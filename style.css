@@ -12,7 +12,7 @@ body {
   color: #dbdbdb;
   }
 
-.textBackgroundColor {
-  background-color: #CC00CC;
+a {
+  background-color: black;
   color: white;
   }
