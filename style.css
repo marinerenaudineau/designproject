@@ -13,6 +13,7 @@ body {
   }
 
 a {
+  text-align: justify;
   background-color: black;
   color: white;
   }
