@@ -9,6 +9,7 @@ body {
 .header {
     padding: 0px;
     text-align: left;
+    left: 30px;
     color: white;
 }
 
