@@ -9,7 +9,7 @@ body {
 .header {
     padding: 0px;
     text-align: left;
-    left: 30px;
+    padding-left: 30px;
     color: white;
 }
 
@@ -20,5 +20,5 @@ body {
   width: 100%;
   color: white;
   text-align: right;
-  right: 50px
+  padding-right: 30px
 }
