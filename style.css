@@ -1,8 +1,8 @@
 body {
-    font-family: Recife Display;
-    margin: 20px;
+    font-family: Avenir;
+    margin: 30px;
     padding: 0px;
-    background-color: #004e91;
+    background-color: #F3F0ED;
     color: #dbdbdb;
 }
 
@@ -20,5 +20,5 @@ body {
   width: 100%;
   color: white;
   text-align: right;
-  padding-right: 30px
+  padding-right: 10px
 }
