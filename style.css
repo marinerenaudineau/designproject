@@ -10,7 +10,7 @@ body {
     padding: 0px;
     text-align: left;
     padding-left: 30px;
-    color: #343432;
+    color: #000000;
 }
 
 .footer {
@@ -18,7 +18,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: #939392;
+  color: #000000;
   text-align: right;
   padding-right: 30px
 }
